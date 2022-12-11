@@ -1,0 +1,161 @@
+@media (orientation: landscape) {
+	.trends-bar {
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+
+	.trend-box {
+		box-sizing: border-box;
+		width: 24.5%;
+		margin-bottom: 4px;
+	}
+}
+
+@media (orientation: portrait) {
+	.trends-bar {
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.trend-box {
+		box-sizing: border-box;
+		width: calc(50% - 4px);
+		min-height: 250px;
+		margin-bottom: 4px;
+	}
+
+	.trend-box:nth-child(even) {
+		margin-right: 0;
+	}
+}
+
+.popup-container {
+	max-width: 360px;
+}
+
+.popup-close {
+	width: 30px;
+	height: 30px;
+	top: -30px;
+}
+
+.header {
+	background-image: url(../img/banner-bg-tablet.jpg);
+}
+
+
+.menu {
+	display: none;
+}
+
+.header-content {
+	padding-top: 35px;
+	max-width: 91%;
+}
+
+.logo-wrapper {
+	max-width: 160px;
+}
+
+.intro {
+	font-size: 4rem;
+}
+
+.trends-title,
+.trend-box-title {
+	font-size: 1.7rem;
+}
+
+.posts {
+	max-width: 100%;
+	padding: 0 35px;
+}
+
+.new-post {
+	flex-direction: column;
+	width: 100%;
+}
+
+.new-post:not(:last-child) {
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	border-bottom: 3px solid #eee;
+}
+
+.post-img {
+	max-width: 100%;
+	min-width: 100%;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+
+.post-pic {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.wrapper-data-user {
+	margin-bottom: 25px;
+}
+
+.sidebar {
+	min-width: 270px;
+	margin-left: 0 35px;
+	flex-shrink: 0;
+}
+
+.recent-post,
+.newsletter,
+.tags-block {
+	margin-bottom: 20px;
+}
+
+.categories {
+	margin-bottom: 0;
+}
+
+.showcase {
+	max-width: 100%;
+	padding: 0 35px;
+}
+
+.showcase-items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.showcase-item {
+	width: 47%;
+}
+
+.showcase-item:nth-child(n + 2) {
+	margin-left: 0;
+}
+
+.showcase-item:nth-child(3n + 1),
+.showcase-item:nth-child(3n + 2) {
+	margin-bottom: 55px;
+}
+
+.footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.footer-wrapper {
+	max-width: 100%;
+	padding: 0 35px;
+}
+
+.social-icons {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #f4f7f6;
+}
+
+.copy-bar {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}

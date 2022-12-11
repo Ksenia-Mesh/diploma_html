@@ -1,0 +1,201 @@
+.popup-container {
+	max-width: 90%;
+}
+
+.popup-close {
+	width: 30px;
+	height: 30px;
+	top: -30px;
+
+}
+
+
+.header {
+	background-image: url(../img/banner-mobile.jpg);
+}
+
+.header-content {
+	padding-top: 33px;
+	max-width: 90%;
+}
+
+.nav-drop-menu {
+	order: 1;
+	margin-bottom: 170px;
+	align-self: flex-end;
+}
+
+.drop-menu {
+	position: absolute;
+	left: -40vmin;
+	right: 0;
+	top: 100%;
+	width: 50vmin;
+	margin-left: 0;
+	text-align: end;
+}
+
+.drop-menu-link {
+	width: 20px;
+}
+
+.menu {
+	display: none;
+	order: 1;
+}
+
+.logo-wrapper {
+	width: 270px;
+	margin: 0 auto;
+
+}
+
+.intro {
+	font-size: 2.6rem;
+	max-width: 280px;
+	padding: 13.8% 0 69% 0;
+
+}
+
+.trends-title,
+.trend-box-title {
+	font-size: 1.5rem;
+
+}
+
+.trends-bar {
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+
+.trend-box {
+	box-sizing: border-box;
+	width: 100%;
+	margin-bottom: 4px;
+	padding: 15px;
+}
+
+.trend-box-content {
+	padding: 30px 15px;
+
+}
+
+.trend-box:nth-child(even),
+.trend-box:nth-child(odd) {
+	margin-right: 0;
+
+}
+
+.posts {
+	max-width: 100%;
+	flex-direction: column;
+	padding: 0 15px;
+
+}
+
+.new-post {
+	flex-direction: column;
+	width: 100%;
+	padding-bottom: 25px;
+	border-bottom: 3px solid #eee;
+}
+
+.new-post:nth-child(n + 2) {
+	margin-top: 35px;
+}
+
+.post-img {
+	max-width: 100%;
+	min-width: 100%;
+	margin-right: 0;
+	margin-bottom: 15px;
+
+}
+
+.post-pic {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+
+}
+
+.post-title {
+	margin-bottom: 25px;
+	font-size: 1.5rem;
+
+}
+
+.wrapper-data-user {
+	margin-bottom: 25px;
+
+}
+
+.sidebar {
+	width: 100%;
+	flex-direction: column;
+	margin: 45px 0;
+}
+
+.recent-post,
+.newsletter,
+.tags-block {
+	margin-bottom: 20px;
+}
+
+.categories {
+	margin-bottom: 0;
+}
+
+.showcase {
+	margin-top: 0;
+	max-width: 100%;
+	padding: 0 15px;
+
+}
+
+.showcase-items {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.showcase-item {
+	width: 100%;
+	margin-top: 30px;
+
+}
+
+.showcase-item:nth-child(n+2) {
+	margin-left: 0;
+}
+
+.showcase-item:nth-child(3n+1),
+.showcase-item:nth-child(3n+2) {
+	margin-bottom: 30px;
+}
+
+.footer {
+	margin-top: 40px;
+	text-align: center;
+
+}
+
+.footer-wrapper {
+	max-width: 100%;
+	padding: 0 15px;
+
+}
+
+.social-icons {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #f4f7f6;
+
+}
+
+.copy-bar {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
